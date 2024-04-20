@@ -9,7 +9,7 @@ interface Props {
 
 const Banner = (props: Props) => {
   const initialText =
-    'This is an example app that outlines an end-to-end integration with Plaid.';
+    'This web app is a budgeting tool for college students. It allows users to link their bank accounts and view their spending by category. Click the button below to link your bank account.';
 
   const successText =
     "This page shows a user's net worth, spending by category, and allows them to explore account and transactions details for linked items.";
@@ -20,7 +20,7 @@ const Banner = (props: Props) => {
     <div id="banner" className="bottom-border-content">
       <h4>{PLAID_ENV} user</h4>
       <div className="header">
-        <h1 className="everpresent-content__heading">Plaid Pattern</h1>
+        <h1 className="everpresent-content__heading">SpendWise</h1>
         <Button
           href="https://docs.google.com/forms/d/e/1FAIpQLSfF4Xev5w9RPGr7fNkSHjmtE_dj0ELuHRbDexQ7Tg2xoo6tQg/viewform"
           target="_blank"
@@ -29,7 +29,7 @@ const Banner = (props: Props) => {
           centered
           secondary
         >
-          Provide feedback on this Plaid Pattern sample app
+          Budgeting App for College Students
         </Button>
       </div>
       <p id="intro" className="everpresent-content__subheading">
